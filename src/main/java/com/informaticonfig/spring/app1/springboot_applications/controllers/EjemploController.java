@@ -11,9 +11,11 @@ public class EjemploController {
     @GetMapping("/detalles_info")
     
     public String info(Model model) {
-        model.addAttribute("Título", "Servidor en línea");
+        model.addAttribute("titulo", "Servidor en línea");
+        model.addAttribute("servidor", "informaticonfig");
+        model.addAttribute("ip", "192.168.100.4");
 
         
-        return "Detalles_Info";
+        return "detalles_Info";
     }
 }
