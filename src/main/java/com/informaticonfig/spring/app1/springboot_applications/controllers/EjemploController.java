@@ -14,8 +14,7 @@ public class EjemploController {
         model.addAttribute("titulo", "Servidor en línea");
         model.addAttribute("servidor", "informaticonfig");
         model.addAttribute("ip", "192.168.100.4");
-
         
-        return "detalles_Info";
+        return "detalles_info";
     }
 }
